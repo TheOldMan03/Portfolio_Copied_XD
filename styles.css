@@ -8,7 +8,7 @@
 .Myself{
     border:1px solid #565656;
     border-radius: 30px;
-    width:24%;
+    max-width:24%;
     min-height: 650px;
     margin:54px 15px;
 }
@@ -16,10 +16,62 @@
 .intro{
     display: flex;
     margin:35px 3px;
-    border:1px solid red;
+}
+
+#nam{
+    padding-left:16px;
+    font-size: 2rem;
+    margin-right:60px;
+}
+
+.intro .left{
+    width:64%;
+    /* I tried doing float and text align and nothing seemed to work so this is like a temporary fix */
+    /* to make the text go to the right side of the Intro div */
+}
+
+.intro #nam{
+    padding-left: 25px;
 }
 
 .intro #exp{
-    font-size: 0.9rem;
+    text-align: right;
+    font-size: 0.95rem;
+}
 
+.image img{
+    display: block;
+    min-width:230px;
+    max-height: 230px;
+    border-radius: 30px;
+    margin:5px auto;
+}
+
+.loc{
+    margin-top:50px;
+}
+
+.loc span{
+    display: block;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top:6px;
+}
+
+.loc p{
+    text-align: center;
+    color:#999999;
+}
+
+.buttons{
+    margin-top:12px;
+}
+
+.butt{
+    border-radius: 40px;
+}
+
+.butt img{
+    min-width: 30px;
+    max-height: 30px;
 }
