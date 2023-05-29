@@ -65,13 +65,33 @@
 
 .buttons{
     margin-top:12px;
+    margin-left: 4px;
 }
 
 .butt{
-    border-radius: 40px;
+    border-radius: 50px;
 }
 
 .butt img{
-    min-width: 30px;
-    max-height: 30px;
+    min-width: 25px;
+    max-height: 25px;
+    color:white;
+}
+
+.hireMe{
+    margin-top:20px;
+    width: 100%;
+}
+
+.hire{
+    display: block;
+    background-color: #28e98c;
+    width:80%;
+    min-height:50px;
+    margin:12px auto;
+    border-radius: 30px;
+    color:black;
+    font-size:1.2rem;
+
+    font-weight: 200;
 }
