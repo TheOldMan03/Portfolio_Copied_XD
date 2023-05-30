@@ -3,13 +3,14 @@
     padding:0;
     background-color: #1f1f1f;
     color:white;
+    font-family: 'Inter', sans-serif;
 }
 
 .Myself{
     border:1px solid #565656;
     border-radius: 30px;
     max-width:24%;
-    min-height: 650px;
+    min-height: 700px;
     margin:54px 15px;
 }
 
@@ -64,17 +65,29 @@
 }
 
 .buttons{
+    display: flex;
+    justify-content: center;
     margin-top:12px;
     margin-left: 4px;
 }
 
 .butt{
-    border-radius: 50px;
+    border-radius: 30px;
+    min-width:50px;
+    min-height: 50px;
+
+    margin:8px 5px;
+    border:1px solid #565656;
+    transition: 0.3s;
+}
+
+.butt:hover{
+    border:1px solid #28e98c;
 }
 
 .butt img{
-    min-width: 25px;
-    max-height: 25px;
+    min-width: 20px;
+    max-height: 20px;
     color:white;
 }
 
@@ -94,6 +107,13 @@
     font-size:1.2rem;
 
     font-weight: 200;
+    transition: 0.3s;
+}
+
+.hire:hover{
+    background-color: #1f1f1f;
+    border: 1px solid #28e98c;
+    color:#28e98c;
 }
 
 .hire img{
