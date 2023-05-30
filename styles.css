@@ -6,6 +6,8 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* the css below is about the box in the left side */
+
 .Myself{
     position: fixed;
     border:1px solid #565656;
@@ -122,4 +124,13 @@
     width:15px;
     height:15px;
     background-color:#28e98c; ;
+}
+
+/* end of the left box css */
+
+/* the css box in the right side */
+
+.brief{
+    border:1px solid red;
+
 }
