@@ -7,9 +7,10 @@
 }
 
 .Myself{
+    position: fixed;
     border:1px solid #565656;
     border-radius: 30px;
-    max-width:24%;
+    min-width:24%;
     min-height: 700px;
     margin:54px 15px;
 }
