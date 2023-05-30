@@ -95,3 +95,10 @@
 
     font-weight: 200;
 }
+
+.hire img{
+    display: inline;
+    width:15px;
+    height:15px;
+    background-color:#28e98c; ;
+}
