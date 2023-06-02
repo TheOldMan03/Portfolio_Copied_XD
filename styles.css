@@ -132,5 +132,31 @@
 
 .brief{
     border:1px solid red;
+    position: fixed;
+    top:40px;
+    right:50px;
+    min-height:72%;
+    min-width:100px;
+}
 
+#two-lines{
+    display: block;
+    height:50px;
+    width:50px;
+    border-radius:25px;
+    border: 1px solid #565656;
+
+    margin:20px auto;
+}
+
+.smol{
+    display: block;
+    border:none;
+    width:20px;
+    height:20px;
+}
+
+.mini_brief{
+    border:1px solid #565656;
+    padding: 12px auto;
 }
