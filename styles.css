@@ -131,7 +131,6 @@
 /* the css box in the right side */
 
 .brief{
-    border:1px solid red;
     position: fixed;
     top:40px;
     right:50px;
@@ -154,9 +153,16 @@
     border:none;
     width:20px;
     height:20px;
+
+    margin:30px auto;
+    color:#28e98c;
 }
 
 .mini_brief{
     border:1px solid #565656;
-    padding: 12px auto;
+    padding: 8px auto;
+    min-height:50vh;
+    border-radius:30px;
+    max-width:50%;
+    margin:50px auto;
 }
