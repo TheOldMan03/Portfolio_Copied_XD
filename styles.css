@@ -9,19 +9,21 @@
 /* the css below is about the box in the left side */
 
 .mainbox{
-    border:1px solid red;
-    max-width: 27%;
-    min-height:100vh;
+    position:fixed;
+    min-width: 26%;
+    max-height:95vh;
+
+    top:20px;
+    left:10px;
 
 }
 
 .Myself{
-    position: fixed;
     border:1px solid #565656;
     border-radius: 30px;
-    min-width:24%;
+    min-width:30%;
     min-height: 700px;
-    margin:54px 15px;
+    margin:44px 15px;
 }
 
 .intro{
@@ -186,7 +188,7 @@
     margin-left:auto;
     margin-right: auto;
 
-    margin-top:10px;
+    margin-top:500px;
 
 
 }
