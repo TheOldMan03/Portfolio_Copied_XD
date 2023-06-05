@@ -8,6 +8,13 @@
 
 /* the css below is about the box in the left side */
 
+.mainbox{
+    border:1px solid red;
+    max-width: 27%;
+    min-height:100vh;
+
+}
+
 .Myself{
     position: fixed;
     border:1px solid #565656;
@@ -136,6 +143,8 @@
     right:50px;
     min-height:72%;
     min-width:100px;
+
+    border:1px solid green;
 }
 
 #two-lines{
@@ -165,4 +174,19 @@
     border-radius:30px;
     max-width:50%;
     margin:50px auto;
+}
+
+/* end of the css in the right side of the content */
+
+#home{
+    border:1px solid red;
+    max-width:40%;
+    min-height:60vh;
+
+    margin-left:auto;
+    margin-right: auto;
+
+    margin-top:10px;
+
+
 }
