@@ -145,8 +145,6 @@
     right:50px;
     min-height:72%;
     min-width:100px;
-
-    border:1px solid green;
 }
 
 #two-lines{
@@ -182,13 +180,46 @@
 
 #home{
     border:1px solid red;
-    max-width:40%;
+    max-width:60%;
     min-height:60vh;
 
-    margin-left:auto;
-    margin-right: auto;
+    margin-left:430px; 
+    /* dont know if this is the right thing to do */
+    margin-top:50px;
 
-    margin-top:500px;
+}
 
+#home .intro{
+    margin: 25px 100px;
+    border:1px solid #565656;
+
+    max-width:150px;
+    min-height:30px;
+
+    padding-left:15px;
+
+    border-radius:30px;
+}
+
+#home .intro span{
+    margin:5px 10px;
+    font-size: 0.8rem;
+}
+
+#home .hello{
+    margin:15px 100px;
+}
+
+#home .hello span{
+    font-size: 4.5rem;
+}
+
+#home .hello span #drake{
+    color:#28e98c;
+}
+
+#home .hello #brief{
+    font-size: 1rem;
+    color:#999999;
 
 }
