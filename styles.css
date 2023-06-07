@@ -223,20 +223,3 @@
     color:#999999;
 }
 
-#home .circle{
-    min-width:30%;
-    min-height: 100px;
-
-    float:right;
-    margin-right:70px;
-
-}
-
-#home .circle #circular_obj{
-    border-radius:75px;
-    border:1px solid #575757;
-
-    max-width:150px;
-    min-height:150px;
-
-}
