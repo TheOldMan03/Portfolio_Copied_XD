@@ -181,7 +181,7 @@
 #home{
     border:1px solid red;
     max-width:60%;
-    min-height:60vh;
+    min-height:90vh;
 
     margin-left:430px; 
     /* dont know if this is the right thing to do */
@@ -207,7 +207,7 @@
 }
 
 #home .hello{
-    margin:15px 100px;
+    margin:45px 100px;
 }
 
 #home .hello span{
@@ -221,5 +221,22 @@
 #home .hello #brief{
     font-size: 1rem;
     color:#999999;
+}
+
+#home .circle{
+    min-width:30%;
+    min-height: 100px;
+
+    float:right;
+    margin-right:70px;
+
+}
+
+#home .circle #circular_obj{
+    border-radius:75px;
+    border:1px solid #575757;
+
+    max-width:150px;
+    min-height:150px;
 
 }
