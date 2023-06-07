@@ -179,7 +179,6 @@
 /* end of the css in the right side of the content */
 
 #home{
-    border:1px solid red;
     max-width:60%;
     min-height:90vh;
 
@@ -223,3 +222,44 @@
     color:#999999;
 }
 
+.exp{
+    min-height:20vh;
+    display: flex;  
+    margin-left:22px;
+}
+
+.exp .ten{
+    margin:15px 70px;
+}
+
+.exp .oneeightytwo{
+    margin:15px 50px;
+}
+
+.exp .ten .num{
+    color:#28e98c;
+    font-size:2.4rem;
+}
+
+.exp .ten p{
+    color: #999999;
+    font-size: 0.7rem;
+}
+
+.exp .oneeightytwo .num{
+    color:#28e98c;
+    font-size:2.4rem;
+}
+
+.exp .oneeightytwo p{
+    color: #999999;
+    font-size: 0.7rem;
+}
+
+.intro #abt span{
+    margin-top:100px;
+}
+
+.story span{
+    font-size: 2.5rem;
+}
